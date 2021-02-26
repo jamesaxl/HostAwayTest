@@ -1,0 +1,19 @@
+{
+    "name": "geek/host-way",
+    "description": "PhoneBook test",
+    "authors": [
+        {
+            "name": "Free Code",
+            "email": "codefree57@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "monolog/monolog": "^2.2"
+    }
+}
